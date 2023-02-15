@@ -9,4 +9,16 @@ cargo
 rustup
 
 rustup self uninstall
+
+rustup doc
+rustup docs --book
+
+mkdir ~/projects
+cd ~/projects
+mkdir hello_world
+cd hello_world
+
+rustc main.rs
+./main
+Hello, world!
 ```
