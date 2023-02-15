@@ -7,3 +7,8 @@ cargo 1.63.0
 cargo build
    Compiling hello_cargo v0.1.0 (~/git/rust-learn/projects/hello_cargo)
     Finished dev [unoptimized + debuginfo] target(s) in 0.29s
+
+cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/hello_cargo`
+Hello, world!
