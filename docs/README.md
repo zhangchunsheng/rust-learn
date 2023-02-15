@@ -29,4 +29,6 @@ cd hello_cargo
 
 cargo build
 cargo run
+
+cargo build --release
 ```
