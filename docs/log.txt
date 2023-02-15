@@ -12,3 +12,7 @@ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.00s
      Running `target/debug/hello_cargo`
 Hello, world!
+
+cargo check
+    Checking hello_cargo v0.1.0 (~/git/rust-learn/projects/hello_cargo)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.03s
