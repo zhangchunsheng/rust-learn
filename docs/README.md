@@ -2,4 +2,11 @@
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 sudo yum install rust
+
+~/.cargo/bin
+rustc --version
+cargo
+rustup
+
+rustup self uninstall
 ```
