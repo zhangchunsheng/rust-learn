@@ -21,4 +21,11 @@ cd hello_world
 rustc main.rs
 ./main
 Hello, world!
+
+cargo --version
+
+cargo new hello_cargo
+cd hello_cargo
+
+cargo build
 ```
