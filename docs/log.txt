@@ -678,3 +678,35 @@ git-lfs               libidn                nettle                python@3.9
 You have 114 outdated formulae installed.
 You can upgrade them with brew upgrade
 or list them with brew outdated.
+
+
+brew update
+Updated 1 tap (homebrew/core).
+==> Outdated Formulae
+adns                  glib                  libidn2               nghttp2               rabbitmq
+apache-flink          gnu-sed               libksba               node                  rabbitmq-c
+apr                   gnu-tar               libnghttp2            node@12               readline
+apr-util              gnupg                 libpng                numpy                 ruby
+aria2                 gnutls                libpq                 oniguruma             rust
+boost                 go                    libtasn1              opencv                shadowsocks-libev
+c-ares                httpd                 libtiff               openexr               shellcheck
+ca-certificates       icu4c                 libtool               openjdk               six
+cmake                 ilmbase               libunistring          openjdk@11            sqlite
+composer              imagemagick           libusb                openldap              swig
+curl                  jansson               libuv                 openssl@1.1           telnet
+dnsmasq               jemalloc              libxml2               openssl@3             unbound
+eigen                 jpeg                  libxmp                p11-kit               unixodbc
+ffmpeg                json-c                libyaml               p7zip                 webp
+fontconfig            kotlin                libzip                pcre2                 wget
+freetds               krb5                  lz4                   php                   x264
+freetype              lame                  maven                 pinentry              xmp
+gd                    libassuan             mbedtls               pkg-config            xvid
+gdbm                  libev                 mysql                 popt                  xz
+geoip                 libffi                mysql-connector-c++   protobuf              yarn
+gettext               libgcrypt             mysql@5.6             protoc-gen-go         zlib
+git-flow              libgpg-error          mysql@5.7             protoc-gen-go-grpc    zstd
+git-lfs               libidn                nettle                python@3.9
+
+You have 114 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
