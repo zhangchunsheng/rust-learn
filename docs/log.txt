@@ -1469,3 +1469,24 @@ dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.69.dylib
   Reason: image not found
 zsh: abort      node version
 
+
+brew search node  
+==> Formulae
+libbitcoin-node   node ✔            node@10           node@16           nodebrew          ode
+linode-cli        node-build        node@12 ✔         node@18           nodeenv
+llnode            node-sass         node@14           node_exporter     nodenv
+
+==> Casks
+capslocknodelay                      nodebox                              nodeclipse
+
+If you meant "node" specifically:
+It was migrated from homebrew/cask to homebrew/core.
+
+
+brew install node@12
+node@12  is already installed but outdated (so it will be upgraded).
+Error: node@12 has been disabled because it is not supported upstream!
+
+
+brew uninstall node@12
+Uninstalling /usr/local/Cellar/node@12/12.22.7... (3,914 files, 51.9MB)
