@@ -16,3 +16,248 @@ Hello, world!
 cargo check
     Checking hello_cargo v0.1.0 (~/git/rust-learn/projects/hello_cargo)
     Finished dev [unoptimized + debuginfo] target(s) in 0.03s
+
+
+brew update
+Error: Fetching /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core failed!
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/bottles-portable-ruby/portable-ruby-2.6.8_1.el_capitan.bottle.tar.gz
+####################################################################################################### 100.0%
+==> Pouring portable-ruby-2.6.8_1.el_capitan.bottle.tar.gz
+Updated 1 tap (homebrew/cask).
+==> New Casks
+86box                                                   microsoft-onenote
+abbyy-finereader-pdf                                    mighty-mike
+accord                                                  miln-movie-splitter
+adze                                                    miniwol
+aethersx2                                               mints
+agi                                                     mixed-in-key-live
+akiflow                                                 mixin
+aliwangwang                                             mmhmm-studio
+alpha                                                   mochi-diffusion
+amazon-luna                                             moderndeck
+ankerslicer                                             monofocus
+ankerwork                                               moradownloader
+anypointstudio                                          mp3tag
+anytype                                                 mx-power-gadget
+apifox                                                  mysteriumvpn
+apipost                                                 nanoem
+app-fair                                                nanosaur2
+appflowy                                                neat
+appium-inspector                                        neovide
+aptakube                                                nitro-pdf-pro
+arc                                                     nordlayer
+archy                                                   northern-softworks-cache-cleaner
+arctype                                                 notch-simulator
+arduino-ide                                             notesnook
+ares                                                    notion-enhanced
+astrofox                                                nym-wallet
+athens                                                  oka-unarchiver
+attachecase                                             onekey
+audiorelay                                              only-switch
+avifquicklook                                           openbci
+bambu-studio                                            opencore-patcher
+banana-cake-pop                                         openin
+battery                                                 openlens
+beast2                                                  openrgb
+betterandbetter                                         openshift-client
+betterdisplay                                           opensoundmeter
+bettermouse                                             orangedrangon-android-messages
+bike                                                    orion
+bili-downloader                                         orka-vm-tools
+bing-wallpaper                                          oso-cloud
+binocs                                                  osp-tracker
+black-light                                             osu
+black-light-pro                                         overt
+bluebubbles                                             oxwu
+blurscreen                                              paddle-easydl
+bookwright                                              panwriter
+bridge                                                  paperpile
+buzz                                                    paragon-camptune
+cad-assistant                                           phpwebstudy
+calhash                                                 picfindr
+capslocknodelay                                         pictureview
+cardinal                                                pieces-cli
+cardpresso                                              pingnoo
+catoclient                                              planet
+centered                                                playcover-community
+chipmunk                                                playdate-simulator
+chromium-gost                                           plex-htpc
+cider                                                   plugdata
+cisdem-duplicate-finder                                 pluginval
+citrix-workspace                                        plus42-binary
+cleaneronepro                                           plus42-decimal
+cleanmymac-zh                                           podman-desktop
+clickshare                                              pokemon-tcg-live
+clips-ide                                               poker-copilot
+cloud189                                                polypad
+clover                                                  polypane
+cnkiexpress                                             postman-agent
+codux                                                   postman-cli
+coherence-x                                             prismlauncher
+color-studio                                            projector
+confectionery                                           protokol
+confluent-cli                                           protonmail-import-export
+contour                                                 prowlarr
+copilot-for-xcode                                       psst
+creality-slicer                                         qspace-pro
+cro-mag-rally                                           qth
+cron                                                    quarto
+cursr                                                   quiet-reader
+datasette                                               quit-all
+dataspell                                               qwerty-fr
+dbeaverlite                                             random-mouse-clicker
+dbeaverultimate                                         rapidapi
+dbgate                                                  readdle-spark
+dcp-o-matic-combiner                                    readmoreading
+dcp-o-matic-disk-writer                                 readwise-ibooks
+dcp-o-matic-editor                                      readyapi
+dcp-o-matic-playlist-editor                             rectangle-pro
+decentr                                                 redquits
+descript                                                reflect
+detail                                                  reflex
+devcleaner                                              remotehamradio
+devsquadron                                             restfox
+devtoys                                                 restream-chat
+diffusionbee                                            reverso
+direqual                                                rive
+dixa                                                    rnnoise
+dmg-canvas                                              roam-research
+doll                                                    rockboxutility
+doughnut                                                roonbridge
+douyin                                                  runcat-plugins-manager
+drawpile                                                rustdesk
+duckduckgo                                              rwts-pdfwriter
+duplicacy-cli                                           sanesidebuttons
+ecamm-live                                              scene-maestro
+egnyte                                                  scenica-player
+electrum-grs                                            schildichat
+elephas                                                 scroll
+elephicon                                               scrolla
+eliot                                                   serene
+eloquent                                                shapr3d
+emmetapp                                                shop-different
+equinox                                                 simplemind
+espanso                                                 sioyek
+farcaster                                               sitala
+fastmarks                                               slab
+ferdium                                                 slack-cli
+fertigt-slate                                           smartreporter-free
+filen                                                   sms-plus
+finalshell                                              snapmaker-luban
+finch                                                   sol
+fishing-funds                                           sonic-lineup
+fleet                                                   sonixd
+fly-key                                                 soothe2
+flycast                                                 soulver-cli
+fmail2                                                  soundtoys
+folder-colorizer                                        spaceid
+forkgram-telegram                                       spike
+foxit-pdf-editor                                        spline
+free-gpgmail                                            spotify4bigsur
+fresh                                                   spybuster
+fxfactory                                               squash
+gama                                                    ssdreporter-free
+gama-jdk                                                steam-plus-plus
+gamemaker                                               superkey
+gamma-control                                           superlist
+gaphor                                                  supermjograph
+gcc-aarch64-embedded                                    supernotes
+gdevelop                                                surge-xt
+genesis-plus                                            swift-quit
+gittyup                                                 swiftcord
+glance-chamburr                                         tablecruncher
+go-shiori                                               tageditor
+goxel                                                   tailscale
+gpgfrontend                                             tdr-kotelnikov
+grammarly-desktop                                       tdr-nova
+gridtracker                                             tdr-vos-slickeq
+groestlcoin-core                                        teamspeak-client
+gyroflow                                                tempbox
+hackolade                                               tentacle-sync-studio
+hdfview                                                 texifier
+headlamp                                                textsniper
+height                                                  thangs-sync
+hepta                                                   the-watcher
+heroic                                                  thinlinc-client
+hidock                                                  threema-work
+hookmark                                                ti-smartview-ce-for-the-ti-84-plus-family
+hostsx                                                  tidgi
+html-mangareader                                        tl-legacy
+httpie                                                  tmpdisk
+icon-shelf                                              todesk
+iconchanger                                             tomatobar
+ideamaker                                               topaz-denoise-ai
+imagex                                                  topaz-gigapixel-ai
+imhex                                                   topaz-sharpen-ai
+inkstitch                                               topaz-video-ai
+input-source-pro                                        tqsl
+interact-scratchpad                                     trex
+iptvnator                                               trivial
+iqmol                                                   trunk-io
+irpf2022                                                tsh
+izotope-product-portal                                  twitch-studio
+jetbrains-gateway                                       typcn-bilibili
+jpc-qlcolorcode                                         ui
+jquake                                                  ujam
+jt-bridge                                               ukrainian-typographic-keyboard
+juice                                                   ulbow
+jump-desktop-connect                                    unicopedia-plus
+kdenlive                                                unite-phone
+kdrive                                                  universal-android-debloater
+keet                                                    unraid-usb-creator
+keysafe                                                 v2ray-unofficial
+kigb                                                    valkyrie
+kindavim                                                ved
+kmeet                                                   vero
+kopiaui                                                 vertcoin-core
+laconvolver                                             videoduke
+languagetool                                            vieb
+lapce                                                   vincelwt-chatgpt
+lectrote                                                virtual-desktop-streamer
+lemonlime                                               virtualbuddy
+libcblite                                               vivid
+libcblite-community                                     vk-calls
+linearmouse                                             vlc-setup
+livebook                                                volley
+localxpose                                              vpn-by-google-one
+lookingglassbridge                                      vpn-tracker-365
+lookingglassstudio                                      waltr-heic-converter
+lotus                                                   warp
+ludwig                                                  watchfacestudio
+lunacy                                                  weektodo
+lunasea                                                 windterm
+macast                                                  wirecast
+macforge                                                wolai
+macloggerdx                                             wooshy
+macrorecorder                                           workman
+mail-assistant                                          workspace-one-intelligent-hub
+mana-security                                           wow
+manila                                                  wpsoffice-cn
+manymc                                                  write
+manyverse                                               xemu
+mbcord                                                  xiv-on-mac
+medis                                                   xprocheck
+mega                                                    xstation5
+mellel                                                  yandex-music-unofficial
+menubarx                                                yattee
+metadatics                                              yousician
+miaoyan                                                 youtype
+microsoft-office-businesspro                            yubihsm2-sdk
+==> Outdated Formulae
+adns                  gnutls                libidn                nettle                ruby
+apache-flink          httpd                 libksba               nghttp2               rust
+aria2                 ilmbase               libtasn1              numpy                 shadowsocks-libev
+boost                 imagemagick           libusb                opencv                telnet
+cmake                 jansson               libxml2               openexr               unbound
+dnsmasq               jemalloc              libxmp                openssl@3             wget
+eigen                 json-c                libyaml               p11-kit               x264
+ffmpeg                kotlin                maven                 p7zip                 xmp
+geoip                 lame                  mbedtls               pinentry              xvid
+git-lfs               libassuan             mysql                 pkg-config            yarn
+gnu-sed               libev                 mysql-connector-c++   popt                  zlib
+gnu-tar               libgcrypt             mysql@5.6             rabbitmq
+gnupg                 libgpg-error          mysql@5.7             rabbitmq-c
+
+You have 63 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
