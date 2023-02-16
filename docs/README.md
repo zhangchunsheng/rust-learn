@@ -36,4 +36,6 @@ cargo build --release
 
 cd guessing_game
 cargo run
+
+cargo build
 ```
