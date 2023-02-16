@@ -19,3 +19,12 @@ cargo check
 
 rustc --version
 rustc 1.67.1 (d5a82bbd2 2023-02-07) (built from a source tarball)
+
+cargo new guessing_game
+     Created binary (application) `guessing_game` package
+
+cargo run
+   Compiling guessing_game v0.1.0 (~/dev/github/rust-learn/projects/guessing_game)
+    Finished dev [unoptimized + debuginfo] target(s) in 4.85s
+     Running `target/debug/guessing_game`
+Hello, world!
