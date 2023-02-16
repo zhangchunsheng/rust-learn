@@ -710,3 +710,762 @@ git-lfs               libidn                nettle                python@3.9
 You have 114 outdated formulae installed.
 You can upgrade them with brew upgrade
 or list them with brew outdated.
+
+
+
+brew install rust
+rust 1.39.0 is already installed but outdated (so it will be upgraded).
+==> Fetching dependencies for rust: ca-certificates, openssl@1.1 and pkg-config
+==> Fetching ca-certificates
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/ca-certificates-2023-01-10.all.bottle.ta
+######################################################################## 100.0%
+==> Fetching openssl@1.1
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/openssl%401.1-1.1.1t.big_sur.bottle.tar.
+######################################################################## 100.0%
+==> Fetching pkg-config
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/pkg-config-0.29.2_3.big_sur.bottle.tar.g
+Already downloaded: /Users/peterzhang/Library/Caches/Homebrew/downloads/f409843d9115ba193cb194ea9e6ad7d32c2eb5aa5ee564902d15676fe2f9aefd--pkg-config-0.29.2_3.big_sur.bottle.tar.gz
+==> Fetching rust
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/rust-1.67.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Upgrading rust
+  1.39.0 -> 1.67.1 
+
+==> Installing dependencies for rust: ca-certificates, openssl@1.1 and pkg-config
+==> Installing rust dependency: ca-certificates
+==> Pouring ca-certificates-2023-01-10.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2023-01-10: 3 files, 216.8KB
+==> Installing rust dependency: openssl@1.1
+==> Pouring openssl@1.1-1.1.1t.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1t: 8,101 files, 18.5MB
+==> Installing rust dependency: pkg-config
+==> Pouring pkg-config-0.29.2_3.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pkg-config/0.29.2_3: 11 files, 656.9KB
+==> Installing rust
+==> Pouring rust-1.67.1.big_sur.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/rust/1.67.1: 36,041 files, 899.3MB
+==> Running `brew cleanup rust`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /usr/local/Cellar/rust/1.39.0... (27,261 files, 963.3MB)
+==> Upgrading 14 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+curl 7.79.1_1 -> 7.87.0, freetds 1.3.3 -> 1.3.17, glib 2.70.0_1 -> 2.74.5, krb5 1.19.2 -> 1.20.1, libpq 14.0 -> 15.2, mysql 8.0.26 -> 8.0.32, mysql-connector-c++ 1.1.3 -> 8.0.32, node 16.11.1 -> 19.6.0, node@12 12.22.7 -> 12.22.12_1, openldap 2.5.8 -> 2.6.4, python@3.9 3.9.7_1 -> 3.9.16, php 8.0.11_1 -> 8.2.2, rabbitmq 3.4.1 -> 3.11.9, rabbitmq-c 0.5.2 -> 0.13.0
+==> Fetching openldap
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/openldap-2.6.4.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching krb5
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/krb5-1.20.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libpq
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libpq-15.2.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+Error: node@12 has been disabled because it is not supported upstream!
+==> Fetching dependencies for curl: libunistring, gettext, libidn2, libnghttp2, lz4, xz and zstd
+==> Fetching libunistring
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libunistring-1.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching gettext
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/gettext-0.21.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libidn2
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libidn2-2.3.4_1.big_sur.bottle.1.tar.gz
+######################################################################## 100.0%
+==> Fetching libnghttp2
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libnghttp2-1.52.0.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching lz4
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/lz4-1.9.4.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching xz
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/xz-5.4.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching zstd
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/zstd-1.5.4.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching curl
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/curl-7.87.0.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching dependencies for node: c-ares, icu4c and libuv
+==> Fetching c-ares
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/c-ares-1.19.0.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching icu4c
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/icu4c-72.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libuv
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libuv-1.44.2.big_sur.bottle.1.tar.gz
+######################################################################## 100.0%
+==> Fetching node
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/node-19.6.0.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching dependencies for python@3.9: gdbm, readline and sqlite
+==> Fetching gdbm
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/gdbm-1.23.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching readline
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/readline-8.2.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching sqlite
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/sqlite-3.40.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching python@3.9
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/python%403.9-3.9.16.big_sur.bottle.tar.g
+######################################################################## 100.0%
+==> Fetching dependencies for freetds: libtool and unixodbc
+==> Fetching libtool
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libtool-2.4.7.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching unixodbc
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/unixodbc-2.3.11.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching freetds
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/freetds-1.3.17.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching dependencies for php: apr, apr-util, libpng, freetype, fontconfig, jpeg-turbo, giflib, highway, imath, libtiff, little-cms2, openexr, webp, jpeg-xl, libvmaf, aom, libavif, gd, libzip, oniguruma and pcre2
+==> Fetching apr
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/apr-1.7.2.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching apr-util
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/apr-util-1.6.3.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libpng
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libpng-1.6.39.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching freetype
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/freetype-2.13.0.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching fontconfig
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/fontconfig-2.14.2.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching jpeg-turbo
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/jpeg-turbo-2.1.5.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching giflib
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/giflib-5.2.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching highway
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/highway-1.0.3.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching imath
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/imath-3.1.6.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libtiff
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libtiff-4.4.0_1.big_sur.bottle.1.tar.gz
+######################################################################## 100.0%
+==> Fetching little-cms2
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/little-cms2-2.14.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching openexr
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/openexr-3.1.5.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching webp
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/webp-1.3.0.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching jpeg-xl
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/jpeg-xl-0.8.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libvmaf
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libvmaf-2.3.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching aom
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/aom-3.6.0.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libavif
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libavif-0.11.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching gd
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/gd-2.3.3_4.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libzip
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libzip-1.9.2.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching oniguruma
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/oniguruma-6.9.8.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching pcre2
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/pcre2-10.42.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching php
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/php-8.2.2.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching dependencies for rabbitmq: wxwidgets and erlang
+==> Fetching wxwidgets
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/wxwidgets-3.2.2.1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching erlang
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/erlang-25.2.2.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching rabbitmq
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/rabbitmq-3.11.9.all.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching dependencies for rabbitmq-c: openssl@3 and popt
+==> Fetching openssl@3
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/openssl%403-3.0.8.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching popt
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/popt-1.19.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching rabbitmq-c
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/rabbitmq-c-0.13.0.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching glib
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/glib-2.74.5.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching dependencies for mysql: libcbor, libfido2, protobuf and zlib
+==> Fetching libcbor
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libcbor-0.10.2.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching libfido2
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/libfido2-1.12.0_1.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching protobuf
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/protobuf-21.12.big_sur.bottle.1.tar.gz
+######################################################################## 100.0%
+==> Fetching zlib
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/zlib-1.2.13.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching mysql
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/mysql-8.0.32.big_sur.bottle.tar.gz
+######################################################################## 100.0%
+==> Fetching dependencies for mysql-connector-c++: mysql-client
+==> Fetching mysql-client
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/mysql-client-8.0.32.big_sur.bottle.tar.g
+######################################################################## 100.0%
+==> Fetching mysql-connector-c++
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/mysql-connector-c%2B%2B-8.0.32.big_sur.b
+######################################################################## 100.0%
+==> Upgrading openldap
+  2.5.8 -> 2.6.4 
+
+==> Pouring openldap-2.6.4.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/openldap/2.6.4: 340 files, 7.6MB
+==> Running `brew cleanup openldap`...
+Removing: /usr/local/Cellar/openldap/2.5.8... (341 files, 7.5MB)
+==> Upgrading krb5
+  1.19.2 -> 1.20.1 
+
+==> Pouring krb5-1.20.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/krb5/1.20.1: 162 files, 5.2MB
+==> Running `brew cleanup krb5`...
+Removing: /usr/local/Cellar/krb5/1.19.2... (162 files, 5.2MB)
+==> Upgrading libpq
+  14.0 -> 15.2 
+
+==> Pouring libpq-15.2.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libpq/15.2: 2,368 files, 28.1MB
+==> Running `brew cleanup libpq`...
+Removing: /usr/local/Cellar/libpq/14.0... (2,334 files, 27.8MB)
+==> Upgrading curl
+  7.79.1_1 -> 7.87.0 
+
+==> Installing dependencies for curl: libunistring, gettext, libidn2, libnghttp2, lz4, xz and zstd
+==> Installing curl dependency: libunistring
+==> Pouring libunistring-1.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libunistring/1.1: 56 files, 4.9MB
+==> Installing curl dependency: gettext
+==> Pouring gettext-0.21.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21.1: 1,983 files, 20.6MB
+==> Installing curl dependency: libidn2
+==> Pouring libidn2-2.3.4_1.big_sur.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libidn2/2.3.4_1: 79 files, 1003.7KB
+==> Installing curl dependency: libnghttp2
+==> Pouring libnghttp2-1.52.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libnghttp2/1.52.0: 13 files, 714.7KB
+==> Installing curl dependency: lz4
+==> Pouring lz4-1.9.4.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/lz4/1.9.4: 22 files, 718.6KB
+==> Installing curl dependency: xz
+==> Pouring xz-5.4.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/xz/5.4.1: 95 files, 1.6MB
+==> Installing curl dependency: zstd
+==> Pouring zstd-1.5.4.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/zstd/1.5.4: 31 files, 2.5MB
+==> Installing curl
+==> Pouring curl-7.87.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/curl/7.87.0: 510 files, 4.2MB
+==> Running `brew cleanup curl`...
+Removing: /usr/local/Cellar/curl/7.79.1_1... (486 files, 3.9MB)
+==> Upgrading node
+  16.11.1 -> 19.6.0 
+
+==> Installing dependencies for node: c-ares, icu4c and libuv
+==> Installing node dependency: c-ares
+==> Pouring c-ares-1.19.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/c-ares/1.19.0: 87 files, 656KB
+==> Installing node dependency: icu4c
+==> Pouring icu4c-72.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/icu4c/72.1: 263 files, 78MB
+==> Installing node dependency: libuv
+==> Pouring libuv-1.44.2.big_sur.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libuv/1.44.2: 51 files, 3.5MB
+==> Installing node
+==> Pouring node-19.6.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/node/19.6.0: 2,154 files, 55.6MB
+==> Running `brew cleanup node`...
+Removing: /usr/local/Cellar/node/16.11.1... (1,980 files, 45.4MB)
+==> Upgrading python@3.9
+  3.9.7_1 -> 3.9.16 
+
+==> Installing dependencies for python@3.9: gdbm, readline and sqlite
+==> Installing python@3.9 dependency: gdbm
+==> Pouring gdbm-1.23.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gdbm/1.23: 24 files, 972.8KB
+==> Installing python@3.9 dependency: readline
+==> Pouring readline-8.2.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/readline/8.2.1: 50 files, 1.7MB
+==> Installing python@3.9 dependency: sqlite
+==> Pouring sqlite-3.40.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/sqlite/3.40.1: 11 files, 4.4MB
+==> Installing python@3.9
+==> Pouring python@3.9-3.9.16.big_sur.bottle.tar.gz
+==> /usr/local/Cellar/python@3.9/3.9.16/bin/python3.9 -m ensurepip
+==> /usr/local/Cellar/python@3.9/3.9.16/bin/python3.9 -m pip install -v --no-deps --no-index --upgrade --isola
+🍺  /usr/local/Cellar/python@3.9/3.9.16: 3,066 files, 55.6MB
+==> Running `brew cleanup python@3.9`...
+Removing: /usr/local/Cellar/python@3.9/3.9.7_1... (3,171 files, 55.9MB)
+==> Upgrading freetds
+  1.3.3 -> 1.3.17 
+
+==> Installing dependencies for freetds: libtool and unixodbc
+==> Installing freetds dependency: libtool
+==> Pouring libtool-2.4.7.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libtool/2.4.7: 75 files, 3.8MB
+==> Installing freetds dependency: unixodbc
+==> Pouring unixodbc-2.3.11.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/unixodbc/2.3.11: 48 files, 2.2MB
+==> Installing freetds
+==> Pouring freetds-1.3.17.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/freetds/1.3.17: 1,262 files, 13.8MB
+==> Running `brew cleanup freetds`...
+Removing: /usr/local/Cellar/freetds/1.3.3... (1,262 files, 13.8MB)
+==> Upgrading php
+  8.0.11_1 -> 8.2.2 
+
+==> Installing dependencies for php: apr, apr-util, libpng, freetype, fontconfig, jpeg-turbo, giflib, highway, imath, libtiff, little-cms2, openexr, webp, jpeg-xl, libvmaf, aom, libavif, gd, libzip, oniguruma and pcre2
+==> Installing php dependency: apr
+==> Pouring apr-1.7.2.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/apr/1.7.2: 59 files, 1.4MB
+==> Installing php dependency: apr-util
+==> Pouring apr-util-1.6.3.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/apr-util/1.6.3: 54 files, 870.7KB
+==> Installing php dependency: libpng
+==> Pouring libpng-1.6.39.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libpng/1.6.39: 27 files, 1.3MB
+==> Installing php dependency: freetype
+==> Pouring freetype-2.13.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/freetype/2.13.0: 67 files, 2.4MB
+==> Installing php dependency: fontconfig
+==> Pouring fontconfig-2.14.2.big_sur.bottle.tar.gz
+==> Regenerating font cache, this may take a while
+==> /usr/local/Cellar/fontconfig/2.14.2/bin/fc-cache -frv
+🍺  /usr/local/Cellar/fontconfig/2.14.2: 88 files, 2.3MB
+==> Installing php dependency: jpeg-turbo
+==> Pouring jpeg-turbo-2.1.5.1.big_sur.bottle.tar.gz
+Warning: These files were overwritten during the `brew link` step:
+/usr/local/bin/cjpeg
+/usr/local/bin/djpeg
+/usr/local/bin/jpegtran
+/usr/local/bin/rdjpgcom
+/usr/local/bin/wrjpgcom
+/usr/local/include/jconfig.h
+/usr/local/include/jerror.h
+/usr/local/include/jmorecfg.h
+/usr/local/include/jpeglib.h
+/usr/local/share/man/man1/cjpeg.1
+/usr/local/share/man/man1/djpeg.1
+/usr/local/share/man/man1/jpegtran.1
+/usr/local/share/man/man1/rdjpgcom.1
+/usr/local/share/man/man1/wrjpgcom.1
+/usr/local/lib/libjpeg.a
+/usr/local/lib/libjpeg.dylib
+/usr/local/lib/pkgconfig/libjpeg.pc
+
+They have been backed up to: /Users/peterzhang/Library/Caches/Homebrew/Backup
+==> Summary
+🍺  /usr/local/Cellar/jpeg-turbo/2.1.5.1: 44 files, 3.9MB
+==> Installing php dependency: giflib
+==> Pouring giflib-5.2.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/giflib/5.2.1: 19 files, 599.8KB
+==> Installing php dependency: highway
+==> Pouring highway-1.0.3.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/highway/1.0.3: 61 files, 3.4MB
+==> Installing php dependency: imath
+==> Pouring imath-3.1.6.big_sur.bottle.tar.gz
+Warning: These files were overwritten during the `brew link` step:
+/usr/local/lib/libImath.dylib
+
+They have been backed up to: /Users/peterzhang/Library/Caches/Homebrew/Backup
+==> Summary
+🍺  /usr/local/Cellar/imath/3.1.6: 49 files, 927.0KB
+==> Installing php dependency: libtiff
+==> Pouring libtiff-4.4.0_1.big_sur.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libtiff/4.4.0_1: 249 files, 4.6MB
+==> Installing php dependency: little-cms2
+==> Pouring little-cms2-2.14.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/little-cms2/2.14: 21 files, 1.3MB
+==> Installing php dependency: openexr
+==> Pouring openexr-3.1.5.big_sur.bottle.tar.gz
+Warning: These files were overwritten during the `brew link` step:
+/usr/local/include/OpenEXR/Iex.h
+/usr/local/include/OpenEXR/IexBaseExc.h
+/usr/local/include/OpenEXR/IexErrnoExc.h
+/usr/local/include/OpenEXR/IexExport.h
+/usr/local/include/OpenEXR/IexForward.h
+/usr/local/include/OpenEXR/IexMacros.h
+/usr/local/include/OpenEXR/IexMathExc.h
+/usr/local/include/OpenEXR/IexMathFloatExc.h
+/usr/local/include/OpenEXR/IexMathIeeeExc.h
+/usr/local/include/OpenEXR/IexNamespace.h
+/usr/local/include/OpenEXR/IexThrowErrnoExc.h
+/usr/local/include/OpenEXR/IlmThread.h
+/usr/local/include/OpenEXR/IlmThreadExport.h
+/usr/local/include/OpenEXR/IlmThreadForward.h
+/usr/local/include/OpenEXR/IlmThreadMutex.h
+/usr/local/include/OpenEXR/IlmThreadNamespace.h
+/usr/local/include/OpenEXR/IlmThreadPool.h
+/usr/local/include/OpenEXR/IlmThreadSemaphore.h
+/usr/local/lib/libIex.dylib
+/usr/local/lib/libIlmThread.dylib
+
+They have been backed up to: /Users/peterzhang/Library/Caches/Homebrew/Backup
+==> Summary
+🍺  /usr/local/Cellar/openexr/3.1.5: 194 files, 6.0MB
+==> Installing php dependency: webp
+==> Pouring webp-1.3.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/webp/1.3.0: 47 files, 2.5MB
+==> Installing php dependency: jpeg-xl
+==> Pouring jpeg-xl-0.8.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/jpeg-xl/0.8.1: 41 files, 17.9MB
+==> Installing php dependency: libvmaf
+==> Pouring libvmaf-2.3.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libvmaf/2.3.1: 234 files, 7.2MB
+==> Installing php dependency: aom
+==> Pouring aom-3.6.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/aom/3.6.0: 23 files, 13MB
+==> Installing php dependency: libavif
+==> Pouring libavif-0.11.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libavif/0.11.1: 19 files, 489.5KB
+==> Installing php dependency: gd
+==> Pouring gd-2.3.3_4.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gd/2.3.3_4: 33 files, 1.5MB
+==> Installing php dependency: libzip
+==> Pouring libzip-1.9.2.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libzip/1.9.2: 145 files, 778.6KB
+==> Installing php dependency: oniguruma
+==> Pouring oniguruma-6.9.8.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/oniguruma/6.9.8: 14 files, 1.4MB
+==> Installing php dependency: pcre2
+==> Pouring pcre2-10.42.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.42: 230 files, 6.4MB
+==> Installing php
+==> Pouring php-8.2.2.big_sur.bottle.tar.gz
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set php_ini /usr/local/etc/php/8.2/php.ini system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set php_dir /usr/local/share/pear system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set doc_dir /usr/local/share/pear/doc system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set ext_dir /usr/local/lib/php/pecl/20220829 system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set bin_dir /usr/local/opt/php/bin system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set data_dir /usr/local/share/pear/data system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set cfg_dir /usr/local/share/pear/cfg system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set www_dir /usr/local/share/pear/htdocs system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set man_dir /usr/local/share/man system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set test_dir /usr/local/share/pear/test system
+==> /usr/local/Cellar/php/8.2.2/bin/pear config-set php_bin /usr/local/opt/php/bin/php system
+==> /usr/local/Cellar/php/8.2.2/bin/pear update-channels
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /usr/local/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /usr/local/etc/php/8.2/
+
+To restart php after an upgrade:
+  brew services restart php
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/php/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /usr/local/Cellar/php/8.2.2: 519 files, 81.8MB
+==> Running `brew cleanup php`...
+Removing: /usr/local/Cellar/php/8.0.11_1... (500 files, 77.9MB)
+==> Upgrading rabbitmq
+  3.4.1 -> 3.11.9 
+
+==> Installing dependencies for rabbitmq: wxwidgets and erlang
+==> Installing rabbitmq dependency: wxwidgets
+==> Pouring wxwidgets-3.2.2.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/wxwidgets/3.2.2.1: 834 files, 25.5MB
+==> Installing rabbitmq dependency: erlang
+==> Pouring erlang-25.2.2.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/erlang/25.2.2: 7,888 files, 488.5MB
+==> Installing rabbitmq
+==> Pouring rabbitmq-3.11.9.all.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink sbin/rabbitmq-defaults
+Target /usr/local/sbin/rabbitmq-defaults
+is a symlink belonging to rabbitmq. You can unlink it:
+  brew unlink rabbitmq
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite rabbitmq
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run rabbitmq
+
+Possible conflicting files are:
+/usr/local/sbin/rabbitmq-defaults -> /usr/local/Cellar/rabbitmq/3.4.1/sbin/rabbitmq-defaults
+/usr/local/sbin/rabbitmq-env -> /usr/local/Cellar/rabbitmq/3.4.1/sbin/rabbitmq-env
+/usr/local/sbin/rabbitmq-plugins -> /usr/local/Cellar/rabbitmq/3.4.1/sbin/rabbitmq-plugins
+/usr/local/sbin/rabbitmq-server -> /usr/local/Cellar/rabbitmq/3.4.1/sbin/rabbitmq-server
+/usr/local/sbin/rabbitmqadmin -> /usr/local/Cellar/rabbitmq/3.4.1/sbin/rabbitmqadmin
+/usr/local/sbin/rabbitmqctl -> /usr/local/Cellar/rabbitmq/3.4.1/sbin/rabbitmqctl
+/usr/local/share/man/man5/rabbitmq-env.conf.5.gz -> /usr/local/Cellar/rabbitmq/3.4.1/share/man/man5/rabbitmq-env.conf.5.gz
+==> Caveats
+Management Plugin enabled by default at http://localhost:15672
+
+To restart rabbitmq after an upgrade:
+  brew services restart rabbitmq
+Or, if you don't want/need a background service you can just run:
+  CONF_ENV_FILE="/usr/local/etc/rabbitmq/rabbitmq-env.conf" /usr/local/opt/rabbitmq/sbin/rabbitmq-server
+==> Summary
+🍺  /usr/local/Cellar/rabbitmq/3.11.9: 1,415 files, 33.7MB
+==> Running `brew cleanup rabbitmq`...
+Removing: /usr/local/Cellar/rabbitmq/3.4.1... (1,031 files, 25.2MB)
+==> Upgrading rabbitmq-c
+  0.5.2 -> 0.13.0 
+
+==> Installing dependencies for rabbitmq-c: openssl@3 and popt
+==> Installing rabbitmq-c dependency: openssl@3
+==> Pouring openssl@3-3.0.8.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@3/3.0.8: 6,480 files, 28.5MB
+==> Installing rabbitmq-c dependency: popt
+==> Pouring popt-1.19.big_sur.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink include/popt.h
+Target /usr/local/include/popt.h
+is a symlink belonging to popt. You can unlink it:
+  brew unlink popt
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite popt
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run popt
+
+Possible conflicting files are:
+/usr/local/include/popt.h -> /usr/local/Cellar/popt/1.16/include/popt.h
+/usr/local/share/man/man3/popt.3 -> /usr/local/Cellar/popt/1.16/share/man/man3/popt.3
+/usr/local/lib/libpopt.0.dylib -> /usr/local/Cellar/popt/1.16/lib/libpopt.0.dylib
+/usr/local/lib/libpopt.a -> /usr/local/Cellar/popt/1.16/lib/libpopt.a
+/usr/local/lib/libpopt.dylib -> /usr/local/Cellar/popt/1.16/lib/libpopt.dylib
+/usr/local/lib/pkgconfig/popt.pc -> /usr/local/Cellar/popt/1.16/lib/pkgconfig/popt.pc
+==> Summary
+🍺  /usr/local/Cellar/popt/1.19: 10 files, 173.6KB
+==> Installing rabbitmq-c
+==> Pouring rabbitmq-c-0.13.0.big_sur.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/amqp-consume
+Target /usr/local/bin/amqp-consume
+is a symlink belonging to rabbitmq-c. You can unlink it:
+  brew unlink rabbitmq-c
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite rabbitmq-c
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run rabbitmq-c
+
+Possible conflicting files are:
+/usr/local/bin/amqp-consume -> /usr/local/Cellar/rabbitmq-c/0.5.2/bin/amqp-consume
+/usr/local/bin/amqp-declare-queue -> /usr/local/Cellar/rabbitmq-c/0.5.2/bin/amqp-declare-queue
+/usr/local/bin/amqp-delete-queue -> /usr/local/Cellar/rabbitmq-c/0.5.2/bin/amqp-delete-queue
+/usr/local/bin/amqp-get -> /usr/local/Cellar/rabbitmq-c/0.5.2/bin/amqp-get
+/usr/local/bin/amqp-publish -> /usr/local/Cellar/rabbitmq-c/0.5.2/bin/amqp-publish
+/usr/local/include/amqp.h -> /usr/local/Cellar/rabbitmq-c/0.5.2/include/amqp.h
+/usr/local/include/amqp_framing.h -> /usr/local/Cellar/rabbitmq-c/0.5.2/include/amqp_framing.h
+/usr/local/include/amqp_ssl_socket.h -> /usr/local/Cellar/rabbitmq-c/0.5.2/include/amqp_ssl_socket.h
+/usr/local/include/amqp_tcp_socket.h -> /usr/local/Cellar/rabbitmq-c/0.5.2/include/amqp_tcp_socket.h
+/usr/local/lib/librabbitmq.dylib -> /usr/local/Cellar/rabbitmq-c/0.5.2/lib/librabbitmq.dylib
+/usr/local/lib/pkgconfig/librabbitmq.pc -> /usr/local/Cellar/rabbitmq-c/0.5.2/lib/pkgconfig/librabbitmq.pc
+==> Summary
+🍺  /usr/local/Cellar/rabbitmq-c/0.13.0: 35 files, 673.5KB
+==> Running `brew cleanup rabbitmq-c`...
+Removing: /usr/local/Cellar/rabbitmq-c/0.5.2... (18 files, 322.8KB)
+==> Upgrading glib
+  2.70.0_1 -> 2.74.5 
+
+==> Pouring glib-2.74.5.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/glib/2.74.5: 449 files, 20.9MB
+==> Running `brew cleanup glib`...
+Removing: /usr/local/Cellar/glib/2.70.0_1... (444 files, 21MB)
+==> Upgrading mysql
+  8.0.26 -> 8.0.32 
+
+==> Installing dependencies for mysql: libcbor, libfido2, protobuf and zlib
+==> Installing mysql dependency: libcbor
+==> Pouring libcbor-0.10.2.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libcbor/0.10.2: 31 files, 175.3KB
+==> Installing mysql dependency: libfido2
+==> Pouring libfido2-1.12.0_1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libfido2/1.12.0_1: 538 files, 1.2MB
+==> Installing mysql dependency: protobuf
+==> Pouring protobuf-21.12.big_sur.bottle.1.tar.gz
+🍺  /usr/local/Cellar/protobuf/21.12: 285 files, 10.2MB
+==> Installing mysql dependency: zlib
+==> Pouring zlib-1.2.13.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/zlib/1.2.13: 13 files, 424.9KB
+==> Installing mysql
+==> Pouring mysql-8.0.32.big_sur.bottle.tar.gz
+==> Caveats
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -u root
+
+To restart mysql after an upgrade:
+  brew services restart mysql
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/mysql/bin/mysqld_safe --datadir=/usr/local/var/mysql
+==> Summary
+🍺  /usr/local/Cellar/mysql/8.0.32: 317 files, 298.8MB
+==> Running `brew cleanup mysql`...
+Removing: /usr/local/Cellar/mysql/8.0.26... (304 files, 296MB)
+==> Upgrading mysql-connector-c++
+  1.1.3 -> 8.0.32 
+
+==> Installing dependencies for mysql-connector-c++: mysql-client
+==> Installing mysql-connector-c++ dependency: mysql-client
+==> Pouring mysql-client-8.0.32.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/mysql-client/8.0.32: 129 files, 149.3MB
+==> Installing mysql-connector-c++
+==> Pouring mysql-connector-c++-8.0.32.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/mysql-connector-c++/8.0.32: 40 files, 4.2MB
+==> Running `brew cleanup mysql-connector-c++`...
+Removing: /usr/local/Cellar/mysql-connector-c++/1.1.3... (27 files, 1.9MB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents to reinstall!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /usr/local/Cellar/apr/1.7.0_2... (104 files, 1.4MB)
+Removing: /usr/local/Cellar/apr-util/1.6.1_3... (54 files, 785.7KB)
+Removing: /usr/local/Cellar/c-ares/1.17.2... (85 files, 642.2KB)
+Removing: /usr/local/Cellar/ca-certificates/2021-09-30... (3 files, 203.4KB)
+Removing: /usr/local/Cellar/fontconfig/2.13.1... (531 files, 3.6MB)
+Removing: /usr/local/Cellar/freetype/2.11.0... (66 files, 2.5MB)
+Removing: /usr/local/Cellar/gd/2.3.3_1... (33 files, 1.4MB)
+Removing: /usr/local/Cellar/gdbm/1.21_1... (24 files, 902.6KB)
+Removing: /usr/local/Cellar/gettext/0.21... (1,953 files, 19.8MB)
+Removing: /usr/local/Cellar/icu4c/69.1... (259 files, 72.8MB)
+Removing: /usr/local/Cellar/libidn2/2.3.2... (77 files, 846.6KB)
+Removing: /usr/local/Cellar/libnghttp2/1.45.1... (13 files, 659.7KB)
+Removing: /usr/local/Cellar/libpng/1.6.37... (27 files, 1.2MB)
+Removing: /usr/local/Cellar/libtiff/4.3.0... (249 files, 4.4MB)
+Removing: /usr/local/Cellar/libtool/2.4.6_4... (75 files, 3.7MB)
+Removing: /usr/local/Cellar/libunistring/0.9.10... (54 files, 4.4MB)
+Removing: /usr/local/Cellar/libuv/1.42.0... (49 files, 3.4MB)
+Removing: /usr/local/Cellar/libzip/1.8.0_1... (144 files, 772.4KB)
+Removing: /usr/local/Cellar/lz4/1.9.3... (22 files, 657.8KB)
+Removing: /usr/local/Cellar/oniguruma/6.9.7.1... (14 files, 1.4MB)
+Removing: /usr/local/Cellar/openexr/2.2.0... (131 files, 11.2MB)
+Removing: /Users/peterzhang/Library/Caches/Homebrew/openjdk--17... (180.1MB)
+Removing: /usr/local/Cellar/openssl@1.1/1.1.1l_1... (8,073 files, 18.5MB)
+Removing: /usr/local/Cellar/openssl/1.0.1j... (1,236 files, 10.6MB)
+Removing: /usr/local/Cellar/openssl/1.0.1j_1... (1,236 files, 10.7MB)
+Removing: /usr/local/Cellar/openssl/1.0.2l... (1,709 files, 12.2MB)
+Removing: /usr/local/Cellar/openssl/1.0.2m... (1,792 files, 12.3MB)
+Removing: /usr/local/Cellar/openssl/1.0.2o_2... (1,792 files, 12.3MB)
+Removing: /usr/local/Cellar/openssl/1.0.2q... (1,794 files, 12.1MB)
+Removing: /usr/local/Cellar/openssl/1.0.2s... (1,795 files, 12.0MB)
+Removing: /usr/local/Cellar/pcre2/10.38... (230 files, 6.2MB)
+Removing: /usr/local/Cellar/pkg-config/0.29.2... (11 files, 627KB)
+Removing: /usr/local/Cellar/popt/1.16... (10 files, 161.5KB)
+Removing: /usr/local/Cellar/protobuf/3.17.3... (210 files, 18.0MB)
+Removing: /usr/local/Cellar/readline/8.1.1... (48 files, 1.6MB)
+Removing: /usr/local/Cellar/sqlite/3.36.0... (11 files, 4.2MB)
+Removing: /usr/local/Cellar/unixodbc/2.3.9_1... (46 files, 2.2MB)
+Removing: /usr/local/Cellar/webp/1.2.1... (39 files, 2.4MB)
+Removing: /usr/local/Cellar/xz/5.2.5... (95 files, 1.4MB)
+Removing: /usr/local/Cellar/zlib/1.2.8... (11 files, 361.7KB)
+Removing: /usr/local/Cellar/zstd/1.5.0... (31 files, 3.5MB)
+Removing: /Users/peterzhang/Library/Logs/Homebrew/openjdk... (64B)
+Removing: /usr/local/lib/python3.6/site-packages/__pycache__/easy_install.cpython-36.pyc... (279B)
+Removing: /usr/local/lib/python3.6/site-packages/__pycache__/sitecustomize.cpython-36.pyc... (1.3KB)
+Removing: /usr/local/lib/python3.7/site-packages/__pycache__/easy_install.cpython-37.pyc... (283B)
+Removing: /usr/local/lib/python3.7/site-packages/__pycache__/sitecustomize.cpython-37.pyc... (1.4KB)
+Removing: /usr/local/lib/python3.9/site-packages/__pycache__/cycler.cpython-39.pyc... (14.2KB)
+Removing: /usr/local/lib/python3.9/site-packages/__pycache__/decorator.cpython-39.pyc... (13.2KB)
+Removing: /usr/local/lib/python3.9/site-packages/__pycache__/pylab.cpython-39.pyc... (219B)
+Removing: /usr/local/lib/python3.9/site-packages/__pycache__/six.cpython-39.pyc... (26.8KB)
+Removing: /usr/local/lib/python3.9/site-packages/__pycache__/termcolor.cpython-39.pyc... (3KB)
+Removing: /usr/local/lib/python3.9/site-packages/__pycache__/typing_extensions.cpython-39.pyc... (65.5KB)
+Removing: /usr/local/lib/python3.9/site-packages/__pycache__/zipp.cpython-39.pyc... (10KB)
+Pruned 54 symbolic links and 13 directories from /usr/local
+==> Caveats
+==> rust
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /usr/local/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /usr/local/etc/php/8.2/
+
+To restart php after an upgrade:
+  brew services restart php
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/php/sbin/php-fpm --nodaemonize
+==> rabbitmq
+Management Plugin enabled by default at http://localhost:15672
+
+To restart rabbitmq after an upgrade:
+  brew services restart rabbitmq
+Or, if you don't want/need a background service you can just run:
+  CONF_ENV_FILE="/usr/local/etc/rabbitmq/rabbitmq-env.conf" /usr/local/opt/rabbitmq/sbin/rabbitmq-server
+==> mysql
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -u root
+
+To restart mysql after an upgrade:
+  brew services restart mysql
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/mysql/bin/mysqld_safe --datadir=/usr/local/var/mysql
+
+
+node version
+dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.69.dylib
+  Referenced from: /usr/local/opt/node@12/bin/node
+  Reason: image not found
+zsh: abort      node version
+
