@@ -1490,3 +1490,6 @@ Error: node@12 has been disabled because it is not supported upstream!
 
 brew uninstall node@12
 Uninstalling /usr/local/Cellar/node@12/12.22.7... (3,914 files, 51.9MB)
+
+node --version
+v19.6.0
