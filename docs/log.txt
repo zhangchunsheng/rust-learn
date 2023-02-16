@@ -49,3 +49,24 @@ argo build
    Compiling guessing_game v0.1.0 (~/dev/github/rust-learn/projects/guessing_game)
     Finished dev [unoptimized + debuginfo] target(s) in 4m 01s
 
+cargo run
+   Compiling guessing_game v0.1.0 (~/dev/github/rust-learn/projects/guessing_game)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.90s
+     Running `target/debug/guessing_game`
+Guess the number!
+The secret number is: 74
+Please input your guess.
+1
+You guessed: 1
+
+ cargo run
+   Compiling guessing_game v0.1.0 (~/dev/github/rust-learn/projects/guessing_game)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.59s
+     Running `target/debug/guessing_game`
+Guess the number!
+The secret number is: 25
+Please input your guess.
+1
+You guessed: 1
+Too small!
+

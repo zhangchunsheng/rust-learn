@@ -38,4 +38,7 @@ cd guessing_game
 cargo run
 
 cargo build
+
+cargo update
+cargo run
 ```
