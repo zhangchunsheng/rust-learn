@@ -40,6 +40,8 @@ https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
 git clone https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
 git clone git@github.com:Homebrew/homebrew-core.git
+https://github.com/Homebrew/homebrew-services
+https://github.com/melonamin/homebrew-formulae
 
 # 从本镜像下载安装脚本并安装 Homebrew / Linuxbrew
 git clone --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-install
