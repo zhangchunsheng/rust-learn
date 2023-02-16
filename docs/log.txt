@@ -28,3 +28,24 @@ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 4.85s
      Running `target/debug/guessing_game`
 Hello, world!
+
+argo build
+    Updating crates.io index
+  Downloaded cfg-if v1.0.0
+  Downloaded rand_core v0.6.4
+  Downloaded ppv-lite86 v0.2.17
+  Downloaded getrandom v0.2.8
+  Downloaded rand_chacha v0.3.1
+  Downloaded rand v0.8.5
+  Downloaded libc v0.2.139
+  Downloaded 7 crates (824.7 KB) in 42.23s
+   Compiling libc v0.2.139
+   Compiling cfg-if v1.0.0
+   Compiling ppv-lite86 v0.2.17
+   Compiling getrandom v0.2.8
+   Compiling rand_core v0.6.4
+   Compiling rand_chacha v0.3.1
+   Compiling rand v0.8.5
+   Compiling guessing_game v0.1.0 (~/dev/github/rust-learn/projects/guessing_game)
+    Finished dev [unoptimized + debuginfo] target(s) in 4m 01s
+
