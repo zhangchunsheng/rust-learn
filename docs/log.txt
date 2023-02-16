@@ -1504,3 +1504,9 @@ mysql++                     mysql-connector-c++ ✔       mysql@5.6 ✔         
 ==> Casks
 mysql-connector-python               mysqlworkbench                       sqlpro-for-mysql
 mysql-shell                          navicat-for-mysql
+
+
+Module build failed (from ./node_modules/_sass-loader@7.3.1@sass-loader/dist/cjs.js):
+Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (111)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.14.1
